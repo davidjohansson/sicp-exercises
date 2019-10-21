@@ -1,0 +1,2 @@
+Med applicative order kommer man gå in i en loop utan slut, eftersom p definieras i termer av sig själv och eftersom
+applicative order först evaluerar alla compounds.

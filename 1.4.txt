@@ -1,0 +1,1 @@
+if-satsen evalueras till en operator som returneras och sedan appliceras på de två argumenten
