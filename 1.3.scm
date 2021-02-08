@@ -8,3 +8,5 @@
     (else (sos x y))    
     ) 
   )
+
+(define (o a b) (+ a b))

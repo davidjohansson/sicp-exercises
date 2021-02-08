@@ -5,13 +5,13 @@
   (sum identity a inc b)
   )
 
+;term är en funktion som modifierar den "innevarande" termen
+;next är en funktion som ger nästa steg
 (define (sum term a next b)
   (define (iter a result)
     (if (> a b)
-	result
-	(iter (next a) (+ (term a) result))))
-
-
+    	result
+	    (iter (next a) (+ (term a) result))))
   (iter a 0)
   )
 
@@ -22,4 +22,4 @@
   (define (ee a b)
     (+ a b))
 
-  (+ a b (ee 1 2)))
+  (+ a b (ee 1 4)))
